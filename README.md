@@ -20,14 +20,14 @@ Print the output.
 #Register Number: 22005600
 
 import pandas as pd
-df = pd.read_csv('cars.csv')
+df = pd.read_csv('nba.csv')
 print(df.head(10))
 print(df.tail())
 print("rows",len(df.axes[0]))
 print("columns",len(df.axes[1]))
 ```
 ## OUTPUT:
-![output](./csv.png)
+![output](./csvoutput.png)
 
 ## RESULT:
 Thus a python program is written to read the contents of a CSV file.
